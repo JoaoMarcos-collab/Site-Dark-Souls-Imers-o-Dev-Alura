@@ -15,7 +15,12 @@
 
 body {
     margin: 0; /* Remove a margem padrão do body */
-    background: var(--bg-color); /* Define a cor de fundo usando uma variável */
+    background-color: var(--bg-color); /* Define a cor de fundo como fallback */
+    background-image: url('https://imgs.search.brave.com/0BWFPFkLdcW4N9kYIkXQHydKN3a9ViZO6d8Pp6qRauk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z2FtZXdhbGxwYXBl/cnMuY29tL3dhbGxw/YXBlcnNfc2xlY2h0/ZV9jb21wcmVzc2ll/L3dhbGxwYXBlcl9k/YXJrX3NvdWxzXzAx/XzE5MjB4MTA4MC5q/cGc'); /* Imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Mantém a imagem fixa durante a rolagem */
     color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
     font-family: "EB Garamond", serif; /* Fonte serifada para o corpo do texto */
 }
@@ -27,9 +32,11 @@ header {
     justify-content: space-around; /* Distribui os itens com espaço ao redor */
     position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
     top: 0; /* Posição do topo quando sticky */
-    background: var(--bg-color); /* Cor de fundo do cabeçalho */
+    background-color: rgba(26, 26, 26, 0.75); /* Fundo semitransparente */
+    backdrop-filter: blur(8px); /* Efeito de desfoque para o fundo */
+    -webkit-backdrop-filter: blur(8px); /* Suporte para Safari */
     z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */    
-    border-bottom: 1px solid #2a2a2a; /* Borda inferior sutil */
+    border-bottom: 1px solid rgba(200, 159, 98, 0.2); /* Borda dourada sutil e transparente */
     gap: 1rem; /* Espaçamento entre os elementos flex */
 }
 
@@ -163,12 +170,14 @@ article a:hover {
 }
 
 .footer {
-    position: absolute; /* Posicionamento absoluto em relação ao elemento pai posicionado */
+    position: relative; /* Mudado para relativo para um fluxo mais natural */
     bottom: 0; /* Alinha na parte inferior */
     left: 0; /* Alinha à esquerda */
     width: 100%; /* Largura total */
     color: var(--tertiary-color); /* Cor do texto */
-    background-color: var(--bg-color); /* Cor de fundo */
+    background-color: rgba(26, 26, 26, 0.75); /* Fundo semitransparente, igual ao header */
+    backdrop-filter: blur(8px); /* Efeito de desfoque para o fundo */
+    -webkit-backdrop-filter: blur(8px); /* Suporte para Safari */
     padding: 15px 20px; /* Espaçamento interno */
     border-top: 1px solid #3c4043; /* Borda superior */
     font-size: 0.8rem; /* Tamanho da fonte */
