@@ -42,6 +42,18 @@ header h1 {
     color: var(--primary-color);
 }
 
+header h1::before {
+    content: ''; /* Essencial para o pseudo-elemento ser exibido */
+    display: inline-block; /* Permite definir largura e altura */
+    width: 1.8rem; /* Largura do ícone (ajuste conforme necessário) */
+    height: 1.8rem; /* Altura do ícone (ajuste conforme necessário) */
+    margin-right: 0.75rem; /* Espaço entre o ícone e o texto */
+    background-image: url('https://imgs.search.brave.com/ck5pSs7NTSksrAPj-Xfbo0IIyDSx88RS9NcPZdxY1jY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5na2V5LmNvbS9w/bmcvZnVsbC81Ny01/NzI4NjhfZGFyay1z/b3Vscy1ib25maXJl/LXBuZy1ib25maXJl/LWRhcmstc291bHMt/cG5nLnBuZw'); /* URL da imagem da Bonfire */
+    background-size: contain; /* Garante que o ícone caiba no espaço definido */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    vertical-align: middle; /* Alinha o ícone verticalmente com o texto */
+}
+
 div input {
     padding: 0.375rem 0.75rem; /* Espaçamento interno */
     border-radius: 2px; /* Bordas quase retas, mais rústico */

@@ -1,38 +1,38 @@
 [
 {
-    "nome": "DemonSouls",
-    "descricao": "Demon Souls foi o primeiro jogo da saga souls",
-    "ano": 2009
+    "nome": "Demons Souls (2009) ",
+    "descricao": "O reino de Boletaria é tomado por uma névoa demoníaca após o rei Allant despertar o Old One. Demônios passam a devorar almas, e o jogador, um caçador de demônios, deve derrotar os Archdemons e decidir o destino do Old One.",
+    "plat": "🎮PS3 "
 },
 {
-    "nome": "Dark Souls I",
-    "descricao": "Primeiro Dark souls",
-    "ano": "naosei"
+    "nome": "Dark Souls I (2011)",
+    "descricao": "A Primeira Chama está se apagando e a maldição Hollow se espalha. O Chosen Undead viaja por Lordran para enfrentar os antigos Lordes e decidir entre manter a Era do Fogo ou permitir o início da Era das Trevas.",
+    "plat": "🎮PS3 🟩XB360"
 
 },
 {
-    "nome": "Dark Souls II",
-    "descricao": "Demon Souls foi o primeiro jogo da saga souls",
-    "ano": 2009
+    "nome": "Dark Souls II (2014)",
+    "descricao": "Em Drangleic, um Undead busca cura para a maldição que leva à perda da sanidade. Ele descobre que reinos surgem e caem em ciclos infinitos ligados à chama, e deve decidir assumir ou recusar o trono que mantém esse ciclo.",
+    "plat": "🎮PS4 🟩XB1 🪟PC 🟩XB360 🎮PS3"
 },
 {
-    "nome": "Dark Souls II SOTFS",
-    "descricao": "Demon Souls foi o primeiro jogo da saga souls",
-    "ano": 2009
+    "nome": "Dark Souls II: Scholar of the First Sin (2015)",
+    "descricao": "Versão definitiva de Dark Souls II, trazendo mudanças na história e novos elementos.",
+    "plat": "🎮PS4 🟩XB1 🪟PC 🟩XB360 🎮PS3"
 },
 {
-    "nome": "Dark Souls III",
-    "descricao": "Demon Souls foi o primeiro jogo da saga souls",
-    "ano": 2009
+    "nome": "Dark Souls III (2016)",
+    "descricao": "A chama está morrendo pela última vez, e os Lords of Cinder se recusam a retornar. O Unkindled é despertado para reuni-los e decidir o fim do ciclo: reacender a chama, deixá-la apagar ou tomar seu poder.",
+    "plat": "🎮PS4 🟩XB1 🪟PC "
 },
 {
-    "nome": "Dark Souls I Remasted",
-    "descricao": "Demon Souls foi o primeiro jogo da saga souls",
-    "ano": 2009
+    "nome": "Dark Souls: Remastered (2018)",
+    "descricao": "Mesma narrativa do Dark Souls original, mas inclui o DLC Artorias of the Abyss, que amplia a história do lendário cavaleiro Artorias, mostrando sua queda ao enfrentar a corrupção do Abyss e salvando Oolacile de um destino pior. É considerado um dos pontos emocionais mais fortes da franquia.",
+    "plat": "🎮PS4 🟩XB1 🪟PC "
 },
 {
-    "nome": "Demon Souls Remasted",
+    "nome": "Demons Souls Remake (2020  PS5)",
     "descricao": "Demon Souls foi o primeiro jogo da saga souls",
-    "ano": 2009
+    "plat": "🎮PS5"
 }
 ]

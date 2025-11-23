@@ -38,7 +38,7 @@ function renderizarCards(cardsParaRenderizar) {
         article.innerHTML = `
         <h2>${dado.nome}</h2>
         <p>${dado.descricao}</p>
-        <p>Ano: ${dado.ano}</p>
+        <p>Pataformas: ${dado.plat}</p>
          `;
         cardContainer.appendChild(article);
     }
